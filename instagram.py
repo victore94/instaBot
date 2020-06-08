@@ -28,13 +28,12 @@ button_login.click()
 print('logged in')
 sleep(3)
 
+# comment these last 2 lines out, if you don't get a pop up asking about notifications
 notnow = webdriver.find_element_by_css_selector(
     'body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
 notnow.click()
 print('not now')
 
-
-#  # comment these last 2 lines out, if you don't get a pop up asking about notifications
 
 
 hashtag_list = ['moodyports', 'quietthechaos',
